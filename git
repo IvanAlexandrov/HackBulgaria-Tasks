@@ -1,0 +1,6 @@
+/folder$ git init - makes empty repository
+/folder$ git status
+/folder$ git add file_name tells for file in project
+/folder$ git commit -m "Name of Commit"
+/folder$ git diff -
+/
