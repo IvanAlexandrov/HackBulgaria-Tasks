@@ -1,22 +1,20 @@
 make a repo in github
 /folder$ git init - makes empty repository
 /folder$ git status
-/folder$ git add file_name tells for file in project
+/folder$ git add [file_name] tells for file in project
 /folder$ git commit -m "Name of Commit"
 /folder$ git diff - diferences in commits
-/folder$ git checkout master file_name - restore last commit cheaanges for provided file_name
+/folder$ git checkout master [file_name] - restore last commit cheaanges for provided file_name
 /folder$ git remote add /*origin -evry time*/ url
 /folder$ git pull origin master /*if push fails*/
 /folder$ git push origin master /branch/ uploads 
-/folder$ git rm file_name /*deletes file from FS and github on next commit*/
+/folder$ git rm [file_name] /*deletes file from FS and github on next commit*/
 /folder$ git add -all /*for more than one file changes*/
-/folder$ git
-/folder$ git
-/folder$ git
-/folder$ git
+
 ..................................................................................................
 RSA keys
 ..................................................................................................
 Simetric  (Algorithm1 cipher) - crypt - (decipher Algorithm1)
+
 Non Simetric private and public key
     sends with public but can not be  deciphered without private key
