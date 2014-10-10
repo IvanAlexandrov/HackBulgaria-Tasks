@@ -1,11 +1,13 @@
 def sudoku_solved(sudoku):
-    print(len(sudoku))
+
     if len(sudoku) != 9:
         return "It is not valid sudoku matrix"
 
     sum_rows = [sum(x) for x in sudoku]
     sum_cols = [sum(x) for x in zip(*sudoku)]
     if sum_rows == sum_cols and sum_rows[0] == 45:
+    # TODO slice to three rows by three cols
+
         return True
     else:
         return False
