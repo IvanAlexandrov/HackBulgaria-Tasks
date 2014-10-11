@@ -1,5 +1,6 @@
 def sort_fractions(fractions):
-    return sorted(fractions, key=lambda x: x[0])
+    return sorted(fractions, key=lambda x: x[0] / x[1])
+    
 
 print(sort_fractions([(2, 3), (1, 2)]))
 print(sort_fractions([(2, 3), (1, 2), (1, 3)]))
