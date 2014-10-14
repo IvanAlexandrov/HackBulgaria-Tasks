@@ -7,7 +7,6 @@ def sudoku_solved(sudoku):
         return "It is not valid sudoku matrix"
     sum_rows = [sum(x) for x in sudoku]
     sum_cols = [sum(x) for x in zip(*sudoku)]
-
     if sum_rows == sum_cols and sum_rows[0] == 45 and sum_cols[0] == 45:
         result = []
         if is_valid_sudoku_slice([row[0:3] for row in sudoku[0:3]]):
